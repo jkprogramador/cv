@@ -1,6 +1,6 @@
 body {
     -webkit-print-color-adjust: exact;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 a:link {
@@ -9,4 +9,8 @@ a:link {
 
 td.bg-beige, tr.bg-beige td {
     background-color: #f3f2da !important;
+}
+
+.table th {
+    border-top: 0 !important;
 }
