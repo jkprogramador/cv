@@ -39,6 +39,10 @@ body {
     background-color: #f3f2da;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 h2 {
     background-color: #456268;
 }
@@ -61,8 +65,26 @@ header {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
     body {
         font-size: 1.125rem; /* 18px */
+    }
+
+    h1 {
+        font-size: 3.125rem; /* 50px */
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        font-size: 1.25rem; /* 20px */
+    }
+
+    .w-xxl-70 {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 3.75rem; /* 60px */
     }
 }
